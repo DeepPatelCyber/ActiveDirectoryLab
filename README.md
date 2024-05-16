@@ -17,11 +17,11 @@ Active Directory, developed by Microsoft, is a powerful directory service that p
 - <b>Windows 10</b>
 - <b>Windows Server 2019 </b>
 
-<h2>Program walk-through:</h2>
+<h2> High-Level Diagram of Active Directory lab:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br/> 
+<img src="https://i.imgur.com/PIgcSCz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
