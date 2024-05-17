@@ -23,7 +23,7 @@ In this active directory lab, the goal is to create, simulate, and administrate 
 
 <p align="center">
  <br/> 
-<img src="https://i.imgur.com/PIgcSCz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PIgcSCz.png" height="80%" width="80%" />
 <br />
 <br />
  
@@ -34,6 +34,19 @@ The diagram above outlines the main components of the lab:  <br/>
 - Services and Features: Active Directory Domain Services, Remote Access Server (RAS), Network Address Translation (NAT), and Dynamic Host Configuration Protocol (DHCP)
 
 <h2> Procedures:</h2>
+
+<h3> Installation of Oracle Virtual Box</h3>
+
+If Virtual Box is not already installed onto your home-lab equipment, installation of this software is key due to the nature of virtualizing the environment. 
+
+
+
+1. navigate to the official website of Oracle Virtual Box and install Virtual Box and Virtual Box extension pack.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/LhKecD8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 <!--
  ```diff
 - text in red
