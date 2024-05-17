@@ -97,7 +97,7 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 - Now the Windows Server 2019 VM can be powered on, and the OS can be installed with default settings.
 
 
-<h3> Configuring the Domain Controller Routing and hostname</h3>
+<h3> Configuring the Domain Controller: Routing and hostname</h3>
 <br/>
 
 
@@ -126,6 +126,9 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
  <br/> 
 <img src="https://i.imgur.com/oe9b1Mk.png"/> 
 <br/>This screenshot shows the renaming process of the machine
+
+<h3> Configuring the Domain Controller: Adding Active Directory Domain Services</h3>
+<br/>
 
  
 <!--
