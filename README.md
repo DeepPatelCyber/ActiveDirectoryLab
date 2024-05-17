@@ -7,7 +7,7 @@ Active Directory, developed by Microsoft, is a powerful directory service that p
 <br />
 <br />
 
-In this active directory lab, the goal is to create, simulate, and administrate an active directory domain at a similar scale to that of an enterprise environment. Since it is a virtual environment, virtual NICs will need to be managed correctly in order to allow for connectivity and proper routing of traffic. Then further service features such as NAT and DHCP can be utilized to help with the administration of the environment. A PowerShell script was created and utilized in order to populate the domain with over 500 users to help further simulate the scale of the project. Client machines were made for users to log in and authenticate against the domain.   
+In this active directory lab, the goal is to create, simulate, and administrate an active directory domain at a similar scale to that of an enterprise environment. Since it is a virtual environment, virtual NICs will need to be managed correctly in order to allow for connectivity and proper routing of traffic. Then further services and features such as NAT and DHCP can be utilized to help with the administration of the environment. A PowerShell script was created and utilized in order to populate the domain with over 500 users to help further simulate the scale of the project. Client machines were made for users to log in and authenticate against the domain.   
 
 <h2>Languages and Utilities Used</h2>
 
