@@ -69,7 +69,7 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 - Navigate to the official Microsoft page to retrieve the Windows Server 2019 iso file and select the os and iso options just like with the previous steps. https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
 
 
-<h3> Creating the Virtual Machines on Virtual Box</h3>
+<h3> Creating the Domain Controller Machine on Virtual Box</h3>
 <br/>
 
 - With all items installed, we can now create the environment.
@@ -94,7 +94,39 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 <img src="https://i.imgur.com/d2QLAxq.png"/> 
 <br/>This screenshot shows the settings of adapter 2 and it being attacked to the internal network, as it is the internal-facing VNIC 
 
-- Now the Windows Server 2019 VM can be powered on, and the OS can be installed with default settings. 
+- Now the Windows Server 2019 VM can be powered on, and the OS can be installed with default settings.
+
+
+<h3> Configuring the Domain Controller Routing and hostname</h3>
+<br/>
+
+
+- Now with the domain controller being installed and being a fully operational virtual machine, we can now configure and add new roles and features to support the lab diagram and enterprise environment.
+- the first step is to configure the internal network adapter, to provide interconnectivity in the network.
+- within windows server, open change adapter options
+
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/gOLqVEg.png"/> 
+<br/>This screenshot shows the the two adapters made during our VM creation, with them being distinctly named
+
+- We now need to assign an IP addressing scheme onto the internal VNIC adapter. by right clicking and selecting properties on the internal VNIC, we can fill in the following information.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/DOAUGkO.png"/> 
+<br/>This screenshot shows the internal adapter properties and IP addressing scheme. 
+
+- The default gateway will be left blank, as the DC itself will be the default gateway. And the DNS server will be pointing to the DC itself again, as for later in the lab, active directory will be installed along with DNS services.
+- The next step is to rename the pc to help with future identification and troubleshooting.
+- by right-clicking the Windows start menu, then clicking system, and selecting rename this PC, we can enter a new hostname. In our case, the hostname was changed to DC for simplicity, and for following the diagram naming conventions.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/oe9b1Mk.png"/> 
+<br/>This screenshot shows the renaming process of the machine
+
  
 <!--
  ```diff
