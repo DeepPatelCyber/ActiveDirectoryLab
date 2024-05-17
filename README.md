@@ -47,6 +47,21 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
  <br/> 
 <img src="https://i.imgur.com/LhKecD8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
+
+<h3> Installation of Operating System iso Files</h3>
+
+- Navigate to the official Microsoft page to retrieve Windows 10 iso file. https://www.microsoft.com/en-us/software-download/windows10
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/PdVTqaB.png" height="80%" width="80%"/> 
+
+- When prompted, select, "Create installation media for another PC."
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/LH5jQPJ.png" height="80%" width="80%"/> 
 <!--
  ```diff
 - text in red
