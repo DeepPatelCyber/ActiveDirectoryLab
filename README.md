@@ -51,7 +51,7 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 
 <h3> Installation of Operating System iso Files</h3>
 
-- Navigate to the official Microsoft page to retrieve Windows 10 iso file. https://www.microsoft.com/en-us/software-download/windows10
+- Navigate to the official Microsoft page to retrieve the Windows 10 iso file. https://www.microsoft.com/en-us/software-download/windows10
 
 <p align="center">
  <br/> 
@@ -62,6 +62,40 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 <p align="center">
  <br/> 
 <img src="https://i.imgur.com/LH5jQPJ.png" height="80%" width="80%"/> 
+
+
+ <br/> 
+ 
+- Navigate to the official Microsoft page to retrieve the Windows Server 2019 iso file and select the os and iso options just like with the previous steps. https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
+
+
+<h3> Creating the Virtual Machines on Virtual Box</h3>
+<br/>
+
+- With all items installed, we can now create the environment.
+- With Oracle Virtual Box opened, we can click the "New" button and start to create our virtual machines.
+- Let's start with the creation of the Windows server 2019 VM.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/T4QRuVn.png"/> 
+<br/>The VM options should appear similar to this, given your home lab resources
+
+- according to the diagram and goals of this lab, the Windows Server VM needs two virtual NICs to be configured to allow for proper internal traffic flow and internet connectivity.
+- Two adapters (virtual NICs) need to be configured on this VM, within the adapter settings of the machine.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/CeX0WJk.png"/> 
+<br/>This screenshot shows the settings of adapter 1 and it being attacked to NAT, as it is the public-facing VNIC 
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/d2QLAxq.png"/> 
+<br/>This screenshot shows the settings of adapter 2 and it being attacked to the internal network, as it is the internal-facing VNIC 
+
+- Now the Windows Server 2019 VM can be powered on, and the OS can be installed with default settings. 
+ 
 <!--
  ```diff
 - text in red
