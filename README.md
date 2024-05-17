@@ -33,6 +33,7 @@ The diagram above outlines the main components of the lab:  <br/>
 - IP addressing Scheme: 172.16.0.1/24
 - Services and Features: Active Directory Domain Services, Remote Access Server (RAS), Network Address Translation (NAT), and Dynamic Host Configuration Protocol (DHCP)
 
+<h2> Procedures:</h2>
 <!--
  ```diff
 - text in red
