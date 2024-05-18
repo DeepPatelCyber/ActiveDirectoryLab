@@ -158,7 +158,36 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 <img src="https://i.imgur.com/pf9FULw.png"/> 
 <br/>This screenshot shows the new login prompt for the server highlighting the domain name as the prefix to the Adminstrator account.
 
- 
+ <h3> Adding a Dedicated Admins Organizational Unit (OU) </h3>
+
+ - By adding this OU it will make the categorization and management of different types of users easier to manage as a systems administrator working in this domain.
+ - In server manager, browse to manage | active directory users and computers | mydomain.com.
+ - right click mydomain.com and select new organizational unit, and name it accordingly
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/rxNM7sR.png"/> 
+<br/>This screenshot shows the _Admins OU being created within our domain.
+
+- Now we can create a user within this OU and give them admin permissions.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/bdEM3Om.png"/> 
+<br/>This screenshot shows our personal user being created within the OU.
+
+- Now we must add this user to the domain admins group in active directory to actually give them admin permissions.
+- Right-click the user and click properties, and click members of.
+- add them to domain admins by name checking, then click apply.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/64xpocW.png"/> 
+<br/>This screenshot shows our user being added to a member of the default admin group in active directory.
+
+
+
+
 <!--
  ```diff
 - text in red
