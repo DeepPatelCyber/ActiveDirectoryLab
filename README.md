@@ -185,11 +185,21 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 <img src="https://i.imgur.com/64xpocW.png"/> 
 <br/>This screenshot shows our user being added to a member of the default admin group in active directory.
 
+<h3> Configuring the Domain Controller: Adding RAS and NAT</h3>
+<br/>
 
+- The purpose of RAS and NAT is to help clients of the domain have a virtual private network while having access to the internet. This will allow all private IP addresses to be translated out to public IP address when trying to communicate to the internet.
+- Again by going to manage, and add roles and features, we can begin the process of installing RAS and NAT.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/oKnztcC.png"/> 
+<br/>This screenshot shows all of the following options selected when installing RAS/NAT. 
 
 
 <!--
  ```diff
+ 
 - text in red
 + text in green
 ! text in orange
