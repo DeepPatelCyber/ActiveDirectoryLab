@@ -103,7 +103,7 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 
 - Now with the domain controller being installed and being a fully operational virtual machine, we can now configure and add new roles and features to support the lab diagram and enterprise environment.
 - the first step is to configure the internal network adapter, to provide interconnectivity in the network.
-- within windows server, open change adapter options
+- within Windows server, open change adapter options
 
 
 <p align="center">
@@ -196,6 +196,10 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 <img src="https://i.imgur.com/oKnztcC.png"/> 
 <br/>This screenshot shows all of the following options selected when installing RAS/NAT. 
 
+
+- Now to manage this new feature, we can navigate to tools | routing and remote access | right-clicked DC local | configure
+- in the configuration wizard, selected the nat option 
+- 
 
 <!--
  ```diff
