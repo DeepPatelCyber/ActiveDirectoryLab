@@ -178,7 +178,7 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 
 - Now we must add this user to the domain admins group in active directory to actually give them admin permissions.
 - Right-click the user and click properties, and click members of.
-- add them to domain admins by name checking, then click apply.
+- add them to domain admins by name-checking, then click apply.
 
 <p align="center">
  <br/> 
