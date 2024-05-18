@@ -136,7 +136,27 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 <p align="center">
  <br/> 
 <img src="https://i.imgur.com/zUw9Avi.png"/> 
-<br/>This screenshot shows the summary of options selected for adding AD DS. 
+<br/>This screenshot shows the summary of options selected for adding AD DS.
+
+- after AD DS has been installed, the server must be promoted to a domain controller for post-deployment configuration.
+
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/F5N5aP0.png"/> 
+<br/>This screenshot shows the option to promote the server to a domain controller.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/ZgzDC09.png"/> 
+<br/>This screenshot shows the summary of options within the Active Directory Domain Services Configuration Wizard.
+
+- After configuration and reset of the server, the active directory domain services feature should be added
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/pf9FULw.png"/> 
+<br/>This screenshot shows the new login prompt for the server highlighting the domain name as the prefix to the Adminstrator account.
 
  
 <!--
