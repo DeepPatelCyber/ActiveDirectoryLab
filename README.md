@@ -130,6 +130,14 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 <h3> Configuring the Domain Controller: Adding Active Directory Domain Services</h3>
 <br/>
 
+- With hostname and routing configured on the DC, we can now start adding roles and features to start implementing Active Directory.
+- On the server manager dashboard, click add roles and features, select the DC, choose to install Active Directory Domain Services, and confirm the installation.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/zUw9Avi.png"/> 
+<br/>This screenshot shows the summary of options selected for adding AD DS. 
+
  
 <!--
  ```diff
