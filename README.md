@@ -198,8 +198,26 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 
 
 - Now to manage this new feature, we can navigate to tools | routing and remote access | right-clicked DC local | configure
-- in the configuration wizard, selected the nat option 
-- 
+- In the configuration wizard, selected the nat option
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/bEYTZ9e.png"/> 
+<br/>This screenshot shows the NAT option that needs to be selected. 
+  
+- Selected the public NIC interface
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/4HuaW1M.png"/> 
+<br/>This screenshot shows the the public interface we created earlier being selected. 
+
+- Selected finish 
+- Now that RAS and NAT has been configured properly, client machines will be able to access the internet, however DHCP still needs to be configured for proper ip adressing in the private address space.
+
+
+<h3> Configuring the Domain Controller: Adding DHCP</h3>
+<br/>
+
+- Dynamic Host Configuration Protocol (DHCP) will help in the process of confiuring this enviornment and making all machines have proper netowrking. DHCP automatically assigns IP address and other communciation parameters to specified devies to specified address spaces. 
 
 <!--
  ```diff
