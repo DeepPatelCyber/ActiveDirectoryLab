@@ -217,7 +217,33 @@ If Virtual Box is not already installed onto your home-lab equipment, installati
 <h3> Configuring the Domain Controller: Adding DHCP</h3>
 <br/>
 
-- Dynamic Host Configuration Protocol (DHCP) will help in the process of confiuring this enviornment and making all machines have proper netowrking. DHCP automatically assigns IP address and other communciation parameters to specified devies to specified address spaces. 
+- Dynamic Host Configuration Protocol (DHCP) will help in the process of confiuring this enviornment and making all machines have proper netowrking. DHCP automatically assigns IP address and other communciation parameters to specified devies to specified address spaces.
+- Again we must navigate to add roles and features, and select our domain controller.
+- Then we must select the DHCP server option, add features, next, and install.
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/k01uny4.png"/> 
+<br/>This screenshot shows the options selected for installing DHCP server in the add roles and features wizard. 
+
+- Now by navigating to tools and DHCP, we can futher configure DHCP.
+- We must create a new scope within our domain with IPv4. Expand the our domain, and right click IPv4, and clicked on new scope.
+- With the new scope wizard opened, we can configure how DHCP will operate with our settings, such as lease times, and address space.
+- As specified in the diagram, we will be using the range of 172.16.0.100 - 200.
+
+<p align="center">
+ <br/> 
+<img src="https://i.imgur.com/rALjPax.png"/> 
+<br/>This screenshot shows the options for setting a range of IP addresses for DHCP to use.
+
+- When it comes to lease times, It depends on the secnario DHCP is being confiured. For our case, we will keep it at eight days.
+- The router and default gateway option should be set to the domain controller it self.
+- Confirm all settings, and selected add new scope.
+
+<h3> Using Powershell Script to create over 1000 users in active directory.</h3>
+<br/>
+
+
+
 
 <!--
  ```diff
